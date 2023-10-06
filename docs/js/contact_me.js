@@ -51,7 +51,7 @@ $(function() {
                     $('#contactForm').trigger("reset");
                 },
             })
-        },
+        },    target: '.navbar-fixed-top'
         filter: function() {
             return $(this).is(":visible");
         },
