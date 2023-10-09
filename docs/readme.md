@@ -8,8 +8,6 @@
 
 ## 사용한 테마
 
-![](Files/startbootstrap-agency-1.0.2.png)  
-
 [https://github.com/learning-zone/website-templates](https://github.com/learning-zone/website-templates) - [startbootstrap-agency-1.0.2](https://github.com/learning-zone/website-templates/tree/master/startbootstrap-agency-1.0.2 "startbootstrap-agency-1.0.2")
 
   
