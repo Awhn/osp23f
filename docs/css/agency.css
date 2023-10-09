@@ -209,7 +209,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #023059;
 }
 
 .navbar-default .nav li a:hover,
@@ -257,7 +257,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 }
 
@@ -265,7 +265,7 @@ header {
     text-align: center;
     color: #3973BF;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/A100.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
