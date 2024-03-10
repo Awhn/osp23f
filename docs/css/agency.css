@@ -263,35 +263,30 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #3973BF;
-    background-attachment: scroll;
-    background-image: url(../img/A100.jpg);
+    background-color: #000000;
     background-position: center center;
     background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+
 }
 
 header .intro-text {
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
+    margin-bottom: 60px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
+    font-size: 60px;
     font-style: italic;
-    line-height: 22px;
+    line-height: 60px;
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
+    font-size: 90px;
     font-weight: 700;
     line-height: 50px;
 }
@@ -349,6 +344,32 @@ section h3.section-subheading {
     margin: 15px 0;
     text-transform: none;
 }
+
+#blob {
+    background-color: white;
+    height: 18vmax;
+    aspect-ratio: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    border-radius: 50%;
+    background: linear-gradient(to right, aquamarine, mediumpurple);
+    animation: rotate 20s infinite;
+    opacity: 0.8;
+    -webkit-filter: blur(30px);
+    -moz-filter: blur(30px);
+    -o-filter: blur(30px);
+    -ms-filter: blur(30px);
+    filter: blur(30px);  }
+
+#blur {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    backdrop-filter: blur(12vmax);
+  }
 
 #portfolio .portfolio-item {
     right: 0;
